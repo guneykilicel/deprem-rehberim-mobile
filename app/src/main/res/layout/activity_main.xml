@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/denemebaslik"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDepremBilgilendirme"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:text="AİLE AFET PLANLAMA NEDİR?"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal|bottom" /> <!-- Yatayda ortala ve altta tut -->
+
+    <Button
+        android:id="@+id/btnAcilDurumPlan"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:text="Acil Durum Planı"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal|bottom" /> <!-- Yatayda ortala ve altta tut -->
+
+    <Button
+        android:id="@+id/btnDepremOncesiHazirlik"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:text="Deprem Çantası"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal|bottom" /> <!-- Yatayda ortala ve altta tut -->
+
+    <Button
+        android:id="@+id/btnDepremSirasi"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:text="YAŞAM ÜÇGENİ OLUŞTURMANIN ÖNEMİ"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal|bottom" /> <!-- Yatayda ortala ve altta tut -->
+
+    <Button
+        android:id="@+id/btnDepremSonrasi"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:text="DEPREMZEDELERİN İHTİYAÇLARI"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal|bottom" /> <!-- Yatayda ortala ve altta tut -->
+
+    <Button
+        android:id="@+id/btnComplaintOrMessage"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:text="Şikayet ve İleti"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal|bottom" /> <!-- Yatayda ortala ve altta tut -->
+
+</LinearLayout>
